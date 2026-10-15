@@ -1,5 +1,57 @@
+# ==================================
+# Python Virtual Environment
+# ==================================
 bert-env/
+venv/
+.venv/
+
+# ==================================
+# Python Cache
+# ==================================
 __pycache__/
+*.pyc
+*.pyo
+
+# ==================================
+# Jupyter Notebook
+# ==================================
 .ipynb_checkpoints/
+
+# ==================================
+# macOS Files
+# ==================================
+.DS_Store
+
+# ==================================
+# Environment Variables / Secrets
+# ==================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==================================
+# BERT Model Checkpoints and Weights
+# ==================================
+checkpoints/
+models/
+*.pt
+*.pth
 *.safetensors
-results/
+*.bin
+
+# ==================================
+# Downloaded Datasets / Cache
+# ==================================
+data/
+cache/
+.cache/
+
+# ==================================
+# Training Logs
+# ==================================
+logs/
+runs/
+wandb/
+outputs/
